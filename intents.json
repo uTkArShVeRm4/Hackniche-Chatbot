@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "How are you doing today?", "Hello"],
+            "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi, how can I help you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Talk to you soon", "Goodbye"],
+            "responses": ["Goodbye", "Take care", "See you later"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Appreciate it", "I'm grateful"],
+            "responses": ["You're welcome", "No problem", "Glad I could help"]
+        },
+        {
+            "tag": "about_bot",
+            "patterns": ["What can you do?", "What are your capabilities?", "Who are you?"],
+            "responses": ["I'm a chatbot designed to help you with your questions.", "I can answer your questions and provide information.", "I'm an AI designed to help you."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["I need help", "Can you help me?", "I'm stuck"],
+            "responses": ["Sure, what do you need help with?", "I'm here to help, what do you need?", "Let me know what you need help with."]
+        },
+        {
+            "tag": "features",
+            "patterns": ["What are the features of this app?", "Can you tell me more about the app?", "What can I do with this app?"],
+            "responses": ["This app offers several features to help national soldiers and their families live better lives.", "The features of this app include enhancing employment opportunities, family support, pension management, and a portal that connects veteran mentors and mentees seeking expert mentoring.", "With this app, you can access a range of resources and services to help support our national soldiers and their families."]
+        }
+    ]
+}
